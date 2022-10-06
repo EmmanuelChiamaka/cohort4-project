@@ -16,6 +16,7 @@
 @import url(css/prettyPhoto.css);
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Gemunu+Libre:wght@500;700&family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap');
 
 /*------------------------------------------------------------------
     SKELETON
@@ -88,8 +89,9 @@ h1 {
 
 h2 {
     font-size: 22px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
+    text-align: left;
 }
 
 h3 {
@@ -120,7 +122,7 @@ h6 a {
 }
 
 a {
-    color: #1f1f1f;
+    color: rgb(41, 141, 21);
     text-decoration: none;
     outline: none;
 }
@@ -234,7 +236,7 @@ a img.alignleft {
 a img.aligncenter {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .wp-caption {
@@ -318,17 +320,19 @@ a img.aligncenter {
 	z-index: 3;
 }
 .header_style_01 .header-nav{
-	background: #ffffff;
+	background: #242222;
 }
 .header-nav .navbar-toggler span {
   background: #ffffff;
 }
 
 .header-nav .navbar-brand {
-	color: #111111;
+	color: #ffffff;
 	font-weight: 800;
 	position: relative;
-	font-size: 23px;
+	font-size:30px;
+    font-family: 'Gemunu Libre', sans-serif;
+
 }
 .header-nav .navbar-brand span {
 	 width: 6px;
@@ -360,7 +364,7 @@ a img.aligncenter {
 
 /*Navbar Toogle*/
 .navbar-toggler {
-	background: rgb(99, 26, 26);
+	background: rgb(41, 141, 21);
 	border: none;
 	padding: 10px 6px;
 	outline: none !important;
@@ -381,21 +385,22 @@ a img.aligncenter {
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding: 8px 15px;
 	font-size: 16px;
-	border-bottom: 3px solid #ffffff;
+	border-bottom: 3px solid rgb(41, 141, 21);
+    
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
 	background: none;
-	color:rgb(99, 26, 26);
+	color:#ffff;
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	border-bottom: 3px solid #ffff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active{
 	background: none;
-	color: rgb(99, 26, 26);
+	/* color: rgb(41, 141, 21); */
 	border-radius: 0px;
-	border-bottom: 3px solid rgb(99, 26, 26);
+	/* border-bottom: 3px solid rgb(41, 141, 21); */
 }
 
 .header_style_01 .navbar-brand {
@@ -405,7 +410,7 @@ a img.aligncenter {
 
 .header_style_01 .navbar-default .navbar-nav > li > a {
     border-radius: 0;
-    color: #222222;
+    color: #111111;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -673,7 +678,8 @@ body.app_version .header_style_01.fixed-menu{
 
 .cd-hero__btn:hover{
 	color: #ffffff;
-    background-color: rgb(99, 26, 26) !important;
+    background-color: rgb(30, 99, 30) !important;
+    border-radius: 20px !important;
 }
 
 .js-cd-slide::before{
@@ -686,6 +692,7 @@ body.app_version .header_style_01.fixed-menu{
 	right: 0px;
 	top: 0px;
 	z-index: 0;
+    border-radius: 20px;
 }
 
 
@@ -874,7 +881,7 @@ body.app_version .header_style_01.fixed-menu{
 
 .how-its-work{
 	position: relative;
-	background: rgb(99, 26, 26);
+	background: white;
 }
 .how-its-work .hc{
 	width: 25%;
